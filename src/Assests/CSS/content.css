@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir-800.otf');
+    font-weight: 800;    
+}
+
+.content {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .cube {
+    position: absolute;
+    top: 15%;
+    left: 12%;
+}
+
+.content .cubes {
+    position: absolute;
+    top: 72%;
+    left: 12%;
+}
+
+.content .stairs {
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+
+.content .pillar {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+
+.content .content-inner {
+    width: 100%;
+    text-align: center;
+}
+
+.content .content-inner h1 {
+    font-family: 'Agrandir';
+    font-size: 190px;
+    font-weight: 800;
+    line-height: 130px;
+    color: #fff;
+    margin: 0;
+}
+
+.content .content-inner .cash {
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 22%;
+}
+
+.content .content-inner .phone {
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 37%;
+}
+
+.content .content-inner .app {
+    position: absolute;
+    z-index: 3;
+    top: 53%;
+    left: 0%;
+}
